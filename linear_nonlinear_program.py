@@ -25,6 +25,7 @@
 
 #### Linear Program Modeling ####
 # Question 1:
+# Note: The code below is verified in python complier environment w/ success.
 
 from scipy import optimize as op
 import numpy as np
