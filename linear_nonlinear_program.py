@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  nonlinear_programming.py
+#  linear_nonlinear_program.py
 #  
 #  Copyright 2021 yuncwang <yuncwang@N-20N3PF1Y4QS0>
 #  
@@ -25,6 +25,9 @@
 
 #### Linear Program Modeling ####
 # Question 1:
+# Stock point A's position: [5,1]; B's position:[2,7]. Everyday with 20 tons capacity for each stock point.
+# There are 6 consumer points with positions: [1.25,1.25],[8.75,0.75],[0.5,4.75],[5.75,5],[3,6.5],[7.25,7.25]. Consumption everyday is: 3,5,4,7,6,11 tons for each point.
+# How to define each point's consumption plan for each point to ensure multiplexer of distance(between stock point A/B and consumption points) and consumption weight(ton) for all sites as minimum.
 # Note: The code below is verified in python complier environment w/ success.
 
 from scipy import optimize as op
@@ -80,6 +83,9 @@ print(res)
 
 #### Nonlinear Program Modeling ####
 # Question 2:
+# Stock point A/B's positions are variable. Everyday with 20 tons capacity for each stock point.
+# There are 6 consumer points with positions: [1.25,1.25],[8.75,0.75],[0.5,4.75],[5.75,5],[3,6.5],[7.25,7.25]. Consumption everyday is: 3,5,4,7,6,11 tons for each point.
+# How to define each point's consumption plan for each point and how to define best stock point A/B's positions to ensure multiplexer of distance(between stock point A/B and consumption points) and consumption weight(ton) for all sites as minimum.
 # Note: The code below is still under debugging
 
 from scipy import optimize as op
