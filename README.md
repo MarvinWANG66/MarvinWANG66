@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @MarvinWANG66
 - 👀 I’m interested in Python coding and application in wireless communication system simulation/machine learning.
 - 🌱 I’m currently learning how to start with Python coding.
-- 💞️ I’m looking to collaborate on basic Python program experience exchange in current phase.
+- 💞️ I’m looking for collaboration on basic Python program experience exchange in current phase.
 - 📫 How to reach me ... yunchong_wang@outlook.com
 
 <!---
