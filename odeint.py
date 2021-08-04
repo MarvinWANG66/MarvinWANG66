@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# Migrated from Online Jupyter tool: https://cocalc.com/projects/72d61fec-dd0b-4937-8a22-436ce298f6cd  
+# The case is from chapter 5.1 of <Math Modelling> SIR model & SIS model
+
+
+
 # In[1]:
 
 
