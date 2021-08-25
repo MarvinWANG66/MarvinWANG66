@@ -8,7 +8,7 @@ import numpy as np
 from scipy.integrate import ode
 
 # import the plotting routines
-import matplotlib.pyplot as pl
+import matplotlib.pyplot as plt
 
 # set equation of motion for Lotka-Volterra (LV)
 def dy_over_dt(t,y,a,b,c,d):
@@ -73,19 +73,19 @@ rabbits = y_result[:,0]
 foxes = y_result[:,1]
 
 # plot result
-pl.plot(rabbits, foxes,'-',lw=1)
-pl.xlabel('amount of rabbits $R$')
-pl.ylabel('amount of foxes $F$')
-pl.title('phase space')
-pl.gcf().savefig('rabbits_foxes_phase_space.png',dpi=300)
+plt.plot(rabbits, foxes,'-',lw=1)
+plt.xlabel('amount of rabbits $R$')
+plt.ylabel('amount of foxes $F$')
+plt.title('phase space')
+plt.gcf().savefig('rabbits_foxes_phase_space.png',dpi=300)
 
-pl.figure()
-pl.plot(t, rabbits, label='rabbits')
-pl.plot(t, foxes, label='foxes')
-pl.xlabel('time $t$')
-pl.ylabel('amount of species')
-pl.legend()
-pl.gcf().savefig('rabbits_foxes_trajectories.png',dpi=300)
+plt.figure()
+plt.plot(t, rabbits, label='rabbits')
+plt.plot(t, foxes, label='foxes')
+plt.xlabel('time $t$')
+plt.ylabel('amount of species')
+plt.legend()
+plt.gcf().savefig('rabbits_foxes_trajectories.png',dpi=300)
 
 
-pl.show()
+plt.show()

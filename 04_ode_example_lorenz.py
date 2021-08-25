@@ -8,7 +8,7 @@ import numpy as np
 from scipy.integrate import ode
 
 # import the plotting routines
-import matplotlib.pyplot as pl
+import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # set equation of motion for Lorenz system
@@ -40,7 +40,7 @@ t_0 = 1.0
 # initial y-vector from initial values
 L0 = np.array([x_0, y_0, z_0]) 
 
-fig = pl.figure(figsize=(12,6))
+fig = plt.figure(figsize=(12,6))
 
 for irho, rho in enumerate(rhos):
 
@@ -103,5 +103,5 @@ for irho, rho in enumerate(rhos):
 
 
 fig.tight_layout()
-fig.savefig('lorenz.png',dpi=300)
-pl.show()
+fig.savefig('lorentz.png',dpi=300)
+plt.show()
